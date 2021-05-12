@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <nav className="p-2 navbar navbar-expand-lg navbar-dark">
+        <nav className="p-2 navbar sticky-top navbar-expand-lg navbar-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">/nafladiva/</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@ function Navbar() {
                             <a className="nav-link" href="#projectsect">projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">contact</a>
+                            <a className="nav-link" href="#contactsect">contact</a>
                         </li>
                     </ul>
                 </div>

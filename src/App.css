@@ -8,6 +8,10 @@
 
 nav {
   box-shadow: 0 5px 15px #1e232b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -59,4 +63,8 @@ img {
 
 .about-container {
   padding-top: 8%;
+}
+
+.project-img {
+  border-radius: 20px;
 }
