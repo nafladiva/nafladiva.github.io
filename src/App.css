@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+* {
+  background-color: #222831;
+  color: #EEEEEE;
+  font-family: 'IBM Plex Mono', Courier, monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  box-shadow: 0 5px 15px #1e232b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  text-decoration: none;
+  color: #EEEEEE;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo:hover {
+  font-weight: bold;
+  color: #EEEEEE;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headtitle1 {
+  padding-bottom: 2%;
+  border-bottom: 3px solid #D65A31;
+}
+
+.btn-pri {
+  background-color: #D65A31;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-sec {
+  color: #D65A31;
+  border: 2px solid #D65A31;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 10px #4c5057;
+}
+
+.btn-sec:hover {
+  color: #D65A31;
+}
+
+.bg-square {
+  width: 40px;
+  height: 40px;
+  background-color: #393E46;
+  padding: 5px 0 12px 30px;
+}
+
+.about-container {
+  padding-top: 8%;
 }
