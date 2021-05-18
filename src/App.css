@@ -65,6 +65,32 @@ img {
   padding-top: 8%;
 }
 
-.project-img {
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card:hover {
+  background-color: #393E46;
+}
+
+.modal {
+  background-color: #1b1d22e8;
+}
+
+.modal-dialog, .modal-content {
+  background: transparent;
+}
+
+.modal-content, .modal-body {
+  border: none;
+  border-radius: 30px;
+}
+
+.project-img, .project-img-modal {
   border-radius: 20px;
+}
+
+.project-img-modal {
+  width: 70%;
 }

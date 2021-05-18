@@ -11,12 +11,12 @@ function ProjectSection() {
             <Subtitle text1='p' text2='rojects' id='projectsect'/>
             
             <div className="row">
-                <ProjectBox name='Neumize' image={neumize} url='http://www.neumize.com/' />
-                <ProjectBox name='Finnote' image={finnote} url='http://47.254.194.52/' />
-                <ProjectBox name='Kuoto' image={kuoto} />
+                <ProjectBox name='Neumize' image={neumize} url='http://www.neumize.com/' id='neumize' />
+                <ProjectBox name='Finnote' image={finnote} url='http://47.254.194.52/' id='finnote' />
+                <ProjectBox name='Kuoto' image={kuoto} id='kuoto' />
             </div>
 
-            <p className="text-center">more project still on going...</p>
+            <p className="mt-5 text-center">more project still on going...</p>
         </div>
     )
 }

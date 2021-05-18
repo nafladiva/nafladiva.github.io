@@ -1,6 +1,7 @@
 import React from 'react'
 import photo from '../images/nafla.png';
 import Button from './Button';
+import cv from '../document/CV_Nafla Diva Syafia.pdf'
 
 function HeadSection() {
     return (
@@ -9,7 +10,7 @@ function HeadSection() {
                 <div className="col-12 col-md-6">
                     <h4>Hi there,</h4>
                     <h1 className="headtitle1">My name is <span><strong>Nafla</strong></span>! &#128075;</h1>
-                    <Button text='Download CV' tag='pri' />
+                    <Button text='Download CV' tag='pri' to={cv}/>
                     <Button text='Contact' tag='sec' to='#contactsect' />
                 </div>
                 <div className="mt-5 mt-md-0 col-12 col-md-6 text-center">
