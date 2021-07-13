@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function ContactSection() {
     return (
         <div className="mt-5 mb-5 container about-container">
-            <Subtitle text1='c' text2='ontact' id='contactsect'/>
-            
+            <Subtitle text='contact' id='contactsect' />
+
             <div className="pt-3 text-center">
                 <h5><FontAwesomeIcon icon={faMapMarkerAlt} /> Aceh, Indonesia</h5><br />
                 <h5><FontAwesomeIcon icon={faPhoneAlt} /> +6281219500968</h5><br />

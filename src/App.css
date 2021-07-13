@@ -28,6 +28,52 @@ img {
   width: 80%;
 }
 
+.emoji {
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
 .headtitle1 {
   padding-bottom: 2%;
   border-bottom: 3px solid #D65A31;
@@ -54,11 +100,26 @@ img {
   color: #D65A31;
 }
 
-.bg-square {
-  width: 40px;
-  height: 40px;
+.subtitle {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  text-align: center;
+  font-size: 8vw;
+}
+
+.subtitle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  display: block;
+  width: 12vw;
+  height: 12vw;
   background-color: #393E46;
+  opacity: 0.7;
   padding: 5px 0 12px 30px;
+  z-index: -1;
 }
 
 .about-container {
@@ -78,16 +139,19 @@ img {
   background-color: #1b1d22e8;
 }
 
-.modal-dialog, .modal-content {
+.modal-dialog,
+.modal-content {
   background: transparent;
 }
 
-.modal-content, .modal-body {
+.modal-content,
+.modal-body {
   border: none;
   border-radius: 30px;
 }
 
-.project-img, .project-img-modal {
+.project-img,
+.project-img-modal {
   border-radius: 20px;
 }
 
