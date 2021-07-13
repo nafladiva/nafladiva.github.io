@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3951f5ca.chunk.css",
-    "main.js": "/static/js/main.83f4ce9b.chunk.js",
-    "main.js.map": "/static/js/main.83f4ce9b.chunk.js.map",
+    "main.css": "/static/css/main.d72e6683.chunk.css",
+    "main.js": "/static/js/main.cf770635.chunk.js",
+    "main.js.map": "/static/js/main.cf770635.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b5631081.chunk.js.map": "/static/js/2.b5631081.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.800be05e.chunk.css.map": "/static/css/2.800be05e.chunk.css.map",
-    "static/css/main.3951f5ca.chunk.css.map": "/static/css/main.3951f5ca.chunk.css.map",
+    "static/css/main.d72e6683.chunk.css.map": "/static/css/main.d72e6683.chunk.css.map",
     "static/js/2.b5631081.chunk.js.LICENSE.txt": "/static/js/2.b5631081.chunk.js.LICENSE.txt",
     "static/media/CV_Nafla Diva Syafia.24847f7a.pdf": "/static/media/CV_Nafla Diva Syafia.24847f7a.pdf",
     "static/media/finnote.5a8afc19.png": "/static/media/finnote.5a8afc19.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.800be05e.chunk.css",
     "static/js/2.b5631081.chunk.js",
-    "static/css/main.3951f5ca.chunk.css",
-    "static/js/main.83f4ce9b.chunk.js"
+    "static/css/main.d72e6683.chunk.css",
+    "static/js/main.cf770635.chunk.js"
   ]
 }
