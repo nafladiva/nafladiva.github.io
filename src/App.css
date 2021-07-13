@@ -126,12 +126,12 @@ img {
   padding-top: 8%;
 }
 
-.card {
+.project-card {
   background-color: transparent;
   border: none;
 }
 
-.card:hover {
+.project-card:hover {
   background-color: #393E46;
 }
 
@@ -157,4 +157,12 @@ img {
 
 .project-img-modal {
   width: 70%;
+}
+
+.contact-card {
+  border: none;
+  border-radius: 20px;
+  background: #222831;
+  box-shadow: 20px 20px 60px #1d222a,
+    -20px -20px 60px #272e38;
 }
