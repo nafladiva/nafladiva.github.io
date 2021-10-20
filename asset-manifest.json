@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4a340608.chunk.css",
-    "main.js": "/static/js/main.0f8e344a.chunk.js",
-    "main.js.map": "/static/js/main.0f8e344a.chunk.js.map",
+    "main.js": "/static/js/main.b031cb3a.chunk.js",
+    "main.js.map": "/static/js/main.b031cb3a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.800be05e.chunk.css": "/static/css/2.800be05e.chunk.css",
@@ -17,13 +17,14 @@
     "static/media/cocheck.364baa65.png": "/static/media/cocheck.364baa65.png",
     "static/media/muvila.6086e5b2.png": "/static/media/muvila.6086e5b2.png",
     "static/media/nafla.50a71ff8.png": "/static/media/nafla.50a71ff8.png",
-    "static/media/neumize.6215249d.png": "/static/media/neumize.6215249d.png"
+    "static/media/neumize.6215249d.png": "/static/media/neumize.6215249d.png",
+    "static/media/restail.19b6ad47.png": "/static/media/restail.19b6ad47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.800be05e.chunk.css",
     "static/js/2.b5631081.chunk.js",
     "static/css/main.4a340608.chunk.css",
-    "static/js/main.0f8e344a.chunk.js"
+    "static/js/main.b031cb3a.chunk.js"
   ]
 }
