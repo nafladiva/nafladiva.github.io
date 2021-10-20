@@ -34,6 +34,12 @@ const projects = [
         name: 'Co-Check',
         description: 'Co-Check is a simple android app which has a feature in the form of checking their condition based on the symptoms that the user has, so that they know what to do next. This Co-Check application also has a feature to inform the latest total cases regarding Covid-19, that obtained from public API. This app is built by using Java.',
         url: 'https://github.com/nafladiva/co-check'
+    },
+    {
+        id: 'restail',
+        name: 'Restail',
+        description: 'Restail is a Mobile app that provide information about restaurant, and using Dicoding\'s API from retrieving data. In this project, I learned how to use state management using provider, local storage, custom widget, animation, testing and many more. This app is made using Flutter.',
+        url: 'https://github.com/nafladiva/restaurant-app-flutter'
     }
 ]
 
