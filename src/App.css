@@ -1,32 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 * {
-  background-color: #222831;
-  color: #EEEEEE;
-  font-family: 'IBM Plex Mono', Courier, monospace;
+  background-color: #FFF;
+  color: #000;
+  font-family: 'Montserrat', monospace;
 }
 
 nav {
-  box-shadow: 0 5px 15px #1e232b;
+  /* box-shadow: 0 5px 15px #1e232b; */
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  color: #000;
 }
 
 .logo {
   text-decoration: none;
-  color: #EEEEEE;
+  color: #000;
 }
 
 .logo:hover {
   font-weight: bold;
-  color: #EEEEEE;
+  color: #000;
 }
 
-img {
+/* img {
   width: 80%;
-}
+} */
 
 .emoji {
   animation-name: wave-animation;
@@ -75,30 +76,33 @@ img {
 }
 
 .headtitle1 {
-  padding-bottom: 2%;
-  border-bottom: 3px solid #D65A31;
+  padding-bottom: 5%;
+  border-bottom: 0.8px solid #e1e1e1;
 }
 
 .btn-pri {
-  background-color: #D65A31;
-  border-radius: 10px;
-  padding: 12px;
+  background-color: #000;
+  border-radius: 8px;
+  padding: 12px 18px;
+  color: #FFF;
+  font-size: 12px;
 }
 
 .btn-sec {
-  color: #D65A31;
-  border: 2px solid #D65A31;
-  border-radius: 10px;
-  padding: 12px;
+  color: #000;
+  border: 1.5px solid #000;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 12px;
 }
 
-.btn:hover {
+/* .btn:hover {
   box-shadow: 0 10px 10px #4c5057;
 }
 
 .btn-sec:hover {
   color: #D65A31;
-}
+} */
 
 .subtitle {
   position: relative;
@@ -131,9 +135,9 @@ img {
   border: none;
 }
 
-.project-card:hover {
-  background-color: #393E46;
-}
+/* .project-card:hover {
+  background-color: #e1e1e1;
+} */
 
 .modal {
   background-color: #1b1d22e8;
@@ -153,6 +157,10 @@ img {
 .project-img,
 .project-img-modal {
   border-radius: 20px;
+}
+
+.project-img {
+  border: 1px solid #e1e1e1;
 }
 
 .project-img-modal {

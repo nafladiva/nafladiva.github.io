@@ -3,16 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js/dist/popper.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './App.css';
-import Navbar from './components/Navbar';
-import HeadSection from './components/HeadSection';
-import AboutSection from './components/AboutSection';
-import ProjectSection from './components/ProjectSection';
-import ContactSection from './components/ContactSection';
+import Navbar from './ui/components/Navbar';
+import HeadSection from './ui/sections/HeadSection';
+import AboutSection from './ui/sections/AboutSection';
+import ProjectSection from './ui/sections/ProjectSection';
+import ContactSection from './ui/sections/ContactSection';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <HeadSection />
       <AboutSection />
       <ProjectSection />

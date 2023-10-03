@@ -1,14 +1,13 @@
 import React from 'react'
-import { faThLarge } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BiMenu } from "react-icons/bi";
 
 function Navbar() {
     return (
-        <nav className="p-2 navbar sticky-top navbar-expand-lg navbar-dark">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="/">/nafladiva/</a>
-                <button className="p-3 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faThLarge} />
+        <nav className="p-2 navbar sticky-top navbar-expand-lg navbar-light">
+            <div className="container-fluid d-flex justify-content-between">
+                <a className="navbar-brand" href="/"><b>/nafladiva/</b></a>
+                <button className="p-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <BiMenu size={20} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">

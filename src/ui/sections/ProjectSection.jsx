@@ -1,20 +1,19 @@
 import React from 'react'
-import Subtitle from './Subtitle'
-import ProjectBox from './ProjectBox'
-import neumize from '../images/neumize.png'
-import finnote from '../images/finnote.png'
-import kuoto from '../images/kuoto.png'
-import muvila from '../images/muvila.png'
-import airbud from '../images/airbud.png'
-import cocheck from '../images/cocheck.png'
-import restail from '../images/restail.png'
+import ProjectBox from '../components/ProjectBox'
+import neumize from '../../images/neumize.png'
+import finnote from '../../images/finnote.png'
+import kuoto from '../../images/kuoto.png'
+import muvila from '../../images/muvila.png'
+import airbud from '../../images/airbud.png'
+import cocheck from '../../images/cocheck.png'
+import restail from '../../images/restail.png'
 
 function ProjectSection() {
     return (
-        <div className="mt-5 container about-container">
-            <Subtitle text='projects' id='projectsect' />
+        <div className="mt-5 col-12 col-md-8 container about-container" id='projectsect'>
+            <h4 className='text-center'><b>Projects</b></h4>
 
-            <div className="row">
+            <div className='row'>
                 <ProjectBox name='Neumize' image={neumize} url='http://www.neumize.com/' id='neumize' />
                 <ProjectBox name='Finnote' image={finnote} url='http://47.254.194.52/' id='finnote' />
                 <ProjectBox name='Kuoto' image={kuoto} id='kuoto' />
