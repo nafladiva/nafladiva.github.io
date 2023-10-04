@@ -1,5 +1,29 @@
 const projects = [
     {
+        id: 'simata',
+        name: 'SIMATA',
+        description: 'SIMATA is a thesis management app for Fakultas MIPA, Universitas Syiah Kuala. This app is adapted from its website, and develop using refactoring method. This mobile app could only be used by lecturers and students in FMIPA USK.',
+        url: '-'
+    },
+    {
+        id: 'todo',
+        name: 'Simple Todo',
+        description: 'Clean and simple todo app for helping people more focus on their todos. User can manage their todos easily, and set priority. This todo app is made using Flutter and local storage.',
+        url: 'google-play'
+    },
+    {
+        id: 'ditonton',
+        name: 'Ditonton',
+        description: 'Ditonton is a mobile app that provide information about latest movies and tv series with TheMoviesDB\'s API. This app is made due to submission for Flutter expert class in Dicoding. With this submission, we, as developer, have to continue the existing project for adding up more features. This project also simulates how a new developer get into a project that already been developed before, like how to adapted to the code, to follow the project flows, etc.',
+        url: 'https://github.com/nafladiva/ditonton-dicoding-MFDE'
+    },
+    {
+        id: 'sirema',
+        name: 'SIREMA (Sistem Reservasi Asrama)',
+        description: 'SIREMA (Sistem Reservasi Asrama) is a website for managing hostel reservation in Puslatbang KHAN LAN RI. This web also contains function for reserving facility rooms, such as theater room, classroom, etc. This project was made for KKP (Kuliah Kerja Praktek) in my college.',
+        url: '#'
+    },
+    {
         id: 'neumize',
         name: 'Neumize',
         description: 'Neumize is a webtool for making picture in a neumorphism style, by just upload your image, edit and it\'s ready to be publish. This website was made by using Bootstrap and Flask.',
@@ -9,7 +33,7 @@ const projects = [
         id: 'finnote',
         name: 'Finnote',
         description: 'Finnote is a website for managing your money, such as record all your income and expenses and input all your dependent cost that you have to pay, then display it in a visual data so that you could see how your financial condition. This website is made for Re-Cloud Challenge Indonesia 2021 that held by Alibaba Cloud Indonesia, and it was made by using Bootstrap and Django.',
-        url: 'http://47.254.194.52/'
+        url: 'https://github.com/nafladiva/finnote/'
     },
     {
         id: 'kuoto',
