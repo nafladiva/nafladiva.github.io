@@ -29,12 +29,12 @@ function ProjectModal(props) {
 
                                             {filterData.url !== '#' && filterData.url !== '-' &&
                                                 <div>
-                                                    {filterData.url === 'google-play' &&
-                                                        <a href="/">
+                                                    {filterData.url.includes("play.google.com") &&
+                                                        <a href={filterData.url}>
                                                             <img src={googlePlay} width={170} alt="google-play" />
                                                         </a>
                                                     }
-                                                    {filterData.url !== 'google-play' &&
+                                                    {!filterData.url.includes("play.google.com") &&
                                                         <Button text='Visit' tag='pri' to={filterData.url} />
                                                     }
                                                     <Button text='Close' tag='sec' dismiss='modal' />

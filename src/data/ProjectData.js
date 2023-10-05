@@ -9,7 +9,7 @@ const projects = [
         id: 'todo',
         name: 'Simple Todo',
         description: 'Clean and simple todo app for helping people more focus on their todos. User can manage their todos easily, and set priority. This todo app is made using Flutter and local storage.',
-        url: 'google-play'
+        url: 'https://play.google.com/store/apps/details?id=com.nafladiva.todo'
     },
     {
         id: 'ditonton',
