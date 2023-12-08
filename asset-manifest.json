@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ef7c4828.chunk.css",
-    "main.js": "/static/js/main.6f72a8cf.chunk.js",
-    "main.js.map": "/static/js/main.6f72a8cf.chunk.js.map",
+    "main.js": "/static/js/main.6ccd6c51.chunk.js",
+    "main.js.map": "/static/js/main.6ccd6c51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.370e115e.chunk.css": "/static/css/2.370e115e.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.c503604c.chunk.js.LICENSE.txt": "/static/js/2.c503604c.chunk.js.LICENSE.txt",
     "static/media/CV_Nafla Diva Syafia.74f5c1bd.pdf": "/static/media/CV_Nafla Diva Syafia.74f5c1bd.pdf",
     "static/media/ditonton.3e572d38.png": "/static/media/ditonton.3e572d38.png",
+    "static/media/podipu.ae8b5c59.png": "/static/media/podipu.ae8b5c59.png",
     "static/media/profile.7bbfb678.png": "/static/media/profile.7bbfb678.png",
     "static/media/restail.19b6ad47.png": "/static/media/restail.19b6ad47.png",
     "static/media/simata.79438efa.png": "/static/media/simata.79438efa.png",
@@ -24,6 +25,6 @@
     "static/css/2.370e115e.chunk.css",
     "static/js/2.c503604c.chunk.js",
     "static/css/main.ef7c4828.chunk.css",
-    "static/js/main.6f72a8cf.chunk.js"
+    "static/js/main.6ccd6c51.chunk.js"
   ]
 }
