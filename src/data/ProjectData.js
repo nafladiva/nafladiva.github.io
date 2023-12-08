@@ -1,5 +1,11 @@
 const projects = [
     {
+        id: 'podipu',
+        name: 'Podipu',
+        description: 'A Podcast Mobile App, where you can listen to a variety of the best podcasts, explore podcasts by genres, save podcasts you want to listen to later, and much more!. Podipu was built with Flutter, Bloc, Hive and powered by ListenNotes API for all podcast data.',
+        url: 'https://github.com/nafladiva/podipu'
+    },
+    {
         id: 'simata',
         name: 'SIMATA',
         description: 'SIMATA is a thesis management app for Fakultas MIPA, Universitas Syiah Kuala. This app is adapted from its website, and develop using refactoring method. This mobile app could only be used by lecturers and students in FMIPA USK.',
