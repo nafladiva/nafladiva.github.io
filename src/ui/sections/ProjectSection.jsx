@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectBox from '../components/ProjectBox'
 import podipu from '../../images/projects/podipu.png';
+import stockwell from '../../images/projects/stockwell.png';
 import simata from '../../images/projects/simata.png'
 import todo from '../../images/projects/todo.png'
 import ditonton from '../../images/projects/ditonton.png'
@@ -15,6 +16,7 @@ function ProjectSection() {
 
             <div className='row'>
                 <ProjectBox name='Podipu' image={podipu} id='podipu' bgColor='ADC4CE' isMockup={true} />
+                <ProjectBox name='StockWell' image={stockwell} id='stockwell' bgColor='7EAA92' isMockup={true} />
                 <ProjectBox name='SIMATA' image={simata} id='simata' bgColor='7EAA92' isMockup={true} />
                 <ProjectBox name='Simple Todo' image={todo} id='todo' bgColor='ADC4CE' isMockup={true} />
                 <ProjectBox name='Ditonton' image={ditonton} id='ditonton' bgColor='FFD89C' isMockup={true} />

@@ -12,8 +12,8 @@ function HeadSection() {
                 <div className="p-4 p-md-0 col-12 col-md-3 col-lg-3">
                     <h1><b>Hello! <span className="emoji">👋🏻</span></b></h1>
                     <p className="headtitle1">I’m <b>Nafla</b>, a passionate Flutter Mobile Developer, based in Indonesia</p>
-                    <a href="https://github.com/nafladiva"><FaGithub size={22} color='#000' className="m-2" /></a>
-                    <a href="https://www.linkedin.com/in/nafla-diva-syafia/"><FaLinkedin size={22} color='#000' className="m-2" /></a>
+                    <a href="https://github.com/nafladiva"><FaGithub size={24} color='#000' className="m-2" /></a>
+                    <a href="https://www.linkedin.com/in/nafla-diva-syafia/"><FaLinkedin size={24} color='#000' className="m-2" /></a>
                 </div>
             </div>
         </div>

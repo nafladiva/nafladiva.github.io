@@ -34,7 +34,10 @@ function ProjectModal(props) {
                                                             <img src={googlePlay} width={170} alt="google-play" />
                                                         </a>
                                                     }
-                                                    {!filterData.url.includes("play.google.com") &&
+                                                    {filterData.url.includes("youtu.be") &&
+                                                        <Button text='Watch demo' tag='pri' to={filterData.url} />
+                                                    }
+                                                    {!filterData.url.includes("play.google.com") && !filterData.url.includes("youtu.be") &&
                                                         <Button text='Visit' tag='pri' to={filterData.url} />
                                                     }
                                                     <Button text='Close' tag='sec' dismiss='modal' />

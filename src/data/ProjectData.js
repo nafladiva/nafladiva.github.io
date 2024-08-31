@@ -6,10 +6,16 @@ const projects = [
         url: 'https://github.com/nafladiva/podipu'
     },
     {
+        id: 'stockwell',
+        name: 'StockWell',
+        description: 'StockWell is a mobile application that helps you properly store your foods step-by-step. Powered by Gemini AI, StockWell easily detects your food from images and then will generate all storage steps for each of your foods. StockWell will also remind you about your food\'s shelf life through notifications. So, no more food waste, save your money, and enjoy fresher foods.',
+        url: 'https://youtu.be/BwnXEvk9EVo'
+    },
+    {
         id: 'simata',
         name: 'SIMATA',
         description: 'SIMATA is a thesis management app for Fakultas MIPA, Universitas Syiah Kuala. This app is adapted from its website, and develop using refactoring method. This mobile app could only be used by lecturers and students in FMIPA USK.',
-        url: '-'
+        url: 'https://youtu.be/fE7p2KKabT4'
     },
     {
         id: 'todo',
