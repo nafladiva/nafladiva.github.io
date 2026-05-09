@@ -41,19 +41,28 @@ function ProjectSection() {
             <h4 className='text-center'><b>Projects</b></h4>
 
             {/* Tab Navigation */}
-            <div className="d-flex justify-content-center mb-4">
-                <div className="btn-group" role="group">
-                    {categories.map(category => (
-                        <button
-                            key={category}
-                            type="button"
-                            className={`btn ${activeTab === category ? 'btn-primary' : 'btn-outline-primary'}`}
-                            onClick={() => setActiveTab(category)}
-                        >
-                            {category}
-                        </button>
-                    ))}
-                </div>
+            <div className="d-flex justify-content-center gap-2 mt-3 mb-4 flex-wrap">
+                {categories.map(category => (
+                    <button
+                        key={category}
+                        type="button"
+                        style={{
+                            padding: '8px 16px',
+                            borderRadius: '25px',
+                            border: 'none',
+                            backgroundColor: activeTab === category ? '#444444' : '#f1f1f1',
+                            color: activeTab === category ? '#FFFFFF' : '#666666',
+                            cursor: 'pointer',
+                            fontSize: '14px',
+                            fontWeight: '500',
+                            transition: 'all 0.3s ease',
+                            boxShadow: activeTab === category ? '0 2px 8px rgba(0,0,0,0.15)' : 'none'
+                        }}
+                        onClick={() => setActiveTab(category)}
+                    >
+                        {category}
+                    </button>
+                ))}
             </div>
 
             <div className='row'>
