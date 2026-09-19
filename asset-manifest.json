@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4dc37c20.chunk.css",
-    "main.js": "/static/js/main.63ef493f.chunk.js",
-    "main.js.map": "/static/js/main.63ef493f.chunk.js.map",
+    "main.js": "/static/js/main.33ee8160.chunk.js",
+    "main.js.map": "/static/js/main.33ee8160.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
     "static/css/2.cf9b5168.chunk.css": "/static/css/2.cf9b5168.chunk.css",
-    "static/js/2.cbe83e16.chunk.js": "/static/js/2.cbe83e16.chunk.js",
-    "static/js/2.cbe83e16.chunk.js.map": "/static/js/2.cbe83e16.chunk.js.map",
+    "static/js/2.6b0b523f.chunk.js": "/static/js/2.6b0b523f.chunk.js",
+    "static/js/2.6b0b523f.chunk.js.map": "/static/js/2.6b0b523f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cf9b5168.chunk.css.map": "/static/css/2.cf9b5168.chunk.css.map",
     "static/css/main.4dc37c20.chunk.css.map": "/static/css/main.4dc37c20.chunk.css.map",
-    "static/js/2.cbe83e16.chunk.js.LICENSE.txt": "/static/js/2.cbe83e16.chunk.js.LICENSE.txt",
+    "static/js/2.6b0b523f.chunk.js.LICENSE.txt": "/static/js/2.6b0b523f.chunk.js.LICENSE.txt",
     "static/media/CV_Nafla Diva Syafia.e11f3c3c.pdf": "/static/media/CV_Nafla Diva Syafia.e11f3c3c.pdf",
     "static/media/ditonton.3e572d38.png": "/static/media/ditonton.3e572d38.png",
     "static/media/podipu.ae8b5c59.png": "/static/media/podipu.ae8b5c59.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.b83279d6.js",
     "static/css/2.cf9b5168.chunk.css",
-    "static/js/2.cbe83e16.chunk.js",
+    "static/js/2.6b0b523f.chunk.js",
     "static/css/main.4dc37c20.chunk.css",
-    "static/js/main.63ef493f.chunk.js"
+    "static/js/main.33ee8160.chunk.js"
   ]
 }
